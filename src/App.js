@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Form } from "./components/Form/Form.tsx";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="">
+      <Form />
+    </div>
+  );
+};
 
-export default App
+export default App;
